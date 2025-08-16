@@ -1,0 +1,24 @@
+import java.util.Scanner;
+import java.util.Arrays;
+
+class Array2 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the size: ");
+		int size=sc.nextInt();
+		int arr[]=new int[size];
+		for(int i=0; i<size; i++){
+			arr[i]=generateRandomElement();
+		
+	}
+	System.out.println(Arrays.toString(arr));
+	}
+	public static int generateRandomElement(){
+		int value=(int)(Math.random()*100);
+		if(value<10)
+			value*=10;
+		return value;
+	}
+}
