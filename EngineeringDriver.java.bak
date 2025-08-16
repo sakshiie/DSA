@@ -1,0 +1,76 @@
+class Engineering 
+{
+	String college;
+	String city;
+
+	Engineering(){
+		super();
+	}
+	Engineering (String college, String city){
+		this.college=college;
+		this.city=city;
+	}
+		public void displayEngineering(){
+			System.out.println("Engineeing ");
+			System.out.println("college "+ college);
+			System.out.println("city "+city);
+		}
+
+	}
+
+
+class CS extends Engineering
+{
+	String hod;
+	int noOfStudents;
+
+	CS(){
+		super();
+		}
+
+		CS(String college, String city,String hod, int noOfStudents){
+			super(college,city);
+			this.hod=hod;
+			this.noOfStudents=noOfStudents;
+		}
+		public void displayCS(){
+			System.out.println("Hod :"+hod);
+			System.out.println("Students "+noOfStudents);
+		}
+}
+
+
+class Student extends CS
+{
+	String name;
+	int rollno;
+
+	Student(){
+		super();
+	}
+
+	Student(String college, String city,String hod, int noOfStudents,String name,int rollno){
+		super();
+
+		this.name=name;
+		this.rollno=rollno;
+	}
+	public void displayStudent(){
+		System.out.println("Name :"+name);
+		System.out.println("Roll no :"+rollno);
+	}
+
+
+}
+
+public class EngineeringDriver
+{
+      public static void main(String args[]){
+		  Student s = new Student("VIT", "Pune", "Dr. Patil", 120, "Sakshi", 45);
+
+		  s.displayEngineering();
+          s.displayStudent();
+		  CS cs=new CS("Vit", "Pune", "Amit kadam", 77);  
+		  cs.displayCS();
+}
+}

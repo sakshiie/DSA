@@ -1,0 +1,8 @@
+[
+  {"name": "sakshi", "age": 20, "username":"sakshi22", "password":123456,"gender":"female","address":"shivaji chowk","email": "sakshi@example.com"},
+  {"name": "atharv", "age": 25, "username":"sakshi22", "password":123456,"gender":"male","address":"pune","email": "atharv@example.com"},
+  {"name": "shreyash", "age": 15, "username":"shreyash47", "password":23445071942,"gender":"male","address":"shivaji chowk","email": "shreyash@example.com"},
+  {"name": "snehal", "age": 20, "username":"snehal47", "password":2684071942,"gender":"female","address":"kokan","email": "snehal@example.com"},
+  {"name": "anu", "age": 25, "username":"anu47", "password":234451983,"gender":"female","address":"shivaji chowk","email": "anu@example.com"}
+
+]

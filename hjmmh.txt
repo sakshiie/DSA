@@ -1,0 +1,329 @@
+  <style>
+   body, html {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      overflow-x: hidden;
+    }
+    body {
+      color: black;
+      box-sizing: border-box;
+    }
+    p {
+      text-align: center;
+    }
+    .header-top {
+      background: white;
+      font-size: 12px;
+      padding: 8px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .main-menu {
+      background: white;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .section-gap {
+      padding: 20px 0;
+    }
+    .footer-bottom {
+      padding-top: 0;
+    }
+    .img {
+      width: 100px;
+      height: 100px;
+    }
+    .about-content {
+      margin-top: 0;
+      padding: 65px 0;
+    }
+    .nav-menu ul {
+      position: absolute;
+      display: none;
+      top: 100%;
+      right: auto;
+      z-index: 99;
+      font-size: 15px !important;
+    }
+    .ahover {
+      padding: 0 8px;
+      text-decoration: none;
+      display: inline-block;
+      font-weight: 500;
+      font-size: 12px;
+      text-transform: uppercase;
+      outline: none;
+    }
+    .ahover:hover {
+      color: #f7631b;
+    }
+    .nav-menu>li {
+      margin-left: unset;
+    }
+    .menu-has-children {
+      cursor: pointer;
+    }
+    .nav-menu a {
+      padding: 0 10px !important;
+    }
+    .animate-charcter {
+      text-transform: uppercase;
+      background-image: linear-gradient(
+        -225deg,
+        #231557 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #fff800 100%
+      );
+      background-size: 200% auto;
+      color: #fff;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 2s linear infinite;
+      display: inline-block;
+      font-size: 190px;
+    }
+    @keyframes textclip {
+      to {
+        background-position: 200% center;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      .example {
+        /*display: none;*/
+      }
+      .title {
+        color: #f7631b;
+      }
+      .main-menu {
+        padding: 0;
+      }
+      .banner-area {
+        /*margin-top: 95px;*/
+      }
+      .about-content {
+        padding: 25px 0 !important;
+      }
+      #mobile-nav-toggle {
+        background-color: white;
+        top: 0;
+      }
+      .cp {
+        padding: 0;
+      }
+      #mail, #img1 {
+        display: none;
+      }
+      #h2 {
+        font-size: 15px;
+      }
+      #mobile-nav-toggle i {
+        color: darkblue;
+        font-weight: bolder;
+      }
+      .nav-menu ul {
+        margin: 10px 0 0 0;
+      }
+      .ad {
+        background-color: white !important;
+      }
+    
+    #h2 {
+        font-size: 20px !important; /* Adjust this value as needed */
+    }
+
+    .header-top h8 {
+        font-size: 16px; /* Adjust this value as needed */
+    }
+    body {
+        margin-left: 0px; /* Adjust this value as needed */
+    }
+    .container {
+    margin-left: 20px; /* Adjust this value as needed */
+}
+    .col-6.col-md-6 {
+        text-align: center;
+        padding: 0 10px; /* Adjust padding */
+    }
+    
+    h8 {
+        font-size: 18px; /* Smaller font size for mobile */
+        padding-top: 0.5%; /* Reduced padding */
+        padding-bottom: 2px; /* Reduced padding */
+    }
+
+    h4 {
+        font-size: 22px; /* Smaller font size for mobile */
+        width: 100%; /* Adjust width to fit the screen */
+        margin-left: 0; /* Reset left margin */
+    }
+    
+    p {
+        font-size: 10px; /* Adjust font size for paragraphs */
+        margin: 0 0 0px 0; /* Reduced margin */
+    }
+}
+		</style>
+  <header >
+  <div class="header-top cp-0">
+      <div class="container-fluid cp">
+        <div class="row example" style="align-items: flex-end; margin-top: -8px;">
+          <div class="col-3 col-md-3 no-padding">
+            <img class="img-fluid img" src="images/Logo1.png" alt="@blankPage.php">
+          </div>
+          <div class="col-6 col-md-6" style="text-align:center;">
+            <b><h8 style="color:darkblue; padding-top:1%; font-size: 20px; padding-bottom:4px" id="">Marathwada Gramin Shikshan Sanstha's</h8></b>
+            <h4 style="color:darkblue; font-size: 27px; width:220%; margin-left:-66%;" id="h2">HUTATMA JAYWANTRAO PATIL MAHAVIDYALAYA,HIMAYATNAGAR</h4>
+            <p style="margin-bottom:0px; font-weight:500; color: darkblue; margin:-2px">TQ.HIMAYATNAGAR-431802.DIST.NANDED.</p>
+            <p style="margin-bottom:0px; font-weight:500; color: darkblue; margin:-2px">(Affiliated to Swami Ramanand Teerth Marathwada University)</p>
+            <p style="margin-bottom:0px; font-weight:500; color: darkblue; margin:-2px">Recognized by UGC U/s 2(f) and 12(B),NAAC accredited with 'B' Grade(CGPA 2.48)</p>
+            <p style="margin-bottom:0px; font-weight:500; color: darkblue; margin:0px">E.Mail: hjp.ned@gmail.com &nbsp;<a href="index.php" style="color :darkblue">Website : hjpmh.co.in</a>&nbsp;Fax No.02468-244106</p>
+          </div>
+          <div class="col-3 col-md-3 no-padding" id="mail">
+            <p style="padding:0%; float:right"><b style="font-weight:500"><br>
+              <label>Email:</label><a href="tel:02469223339" style="color:darkblue; text-align:center;">hjp.ned@gmail.com</a><br>
+              <label>Tel(O):</label><a href="tel:02469223339" style="color:darkblue">244406</a></b></p>
+          </div>
+        </div>
+        <div class="d-sm-none d-md-none d-lg-none" id="img1">
+          <div class="container-fluid d-flex align-items-center" style="padding-left:0px !important;">
+            <a href="index.php" class="@blankPage.php"><img class="img-fluid img" src="images/Logo.png" alt="@blankPage.php"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid main-menu" style="background-color:darkblue;">
+      <div class="row align-items-center justify-content-between d-flex p-1">
+        <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="aboutus.php">About Us</a></li>
+            <li><a href="Principals-Desk.php">Principal's Desk</a></li>
+            <li class="menu-has-children"><a>Departments</a>
+              <ul>
+                <li class="menu-has-children"><a style="color:black !important">Science</a>
+                  <ul style="float:right">
+                    <li><a class="ad" style="color:black !important" href="botany.php">Botany</a></li>
+                    <li><a class="ad" style="color:black !important" href="zoology.php">Zoology</a></li>
+                    <li><a class="ad" style="color:black !important" href="chemistry.php">Chemistry</a></li>
+                    <li><a class="ad" style="color:black !important" href="mathematics.php">Mathematics</a></li>
+                    <li><a class="ad" style="color:black !important" href="environmental-science.php">Environmental Science</a></li>
+                  </ul>
+                </li>
+                <li class="menu-has-children"><a class="ad" style="color:black !important">Arts</a>
+                  <ul style="float:right">
+                    <li><a class="ad" style="color:black !important" href="department_marathi.php">Marathi</a></li>
+                    <li><a class="ad" style="color:black !important" href="Department_Hindi.php">Hindi</a></li>
+                    <li><a class="ad" style="color:black !important" href="Department_English.php">English</a></li>
+                    <li><a class="ad" style="color:black !important" href="Department_Economics.php">Economics</a></li>
+                    <li><a class="ad" style="color:black !important" href="Department_History.php">History</a></li>
+                    <li><a class="ad" style="color:black !important" href="Department_Sociology.php">Sociology</a></li>
+                    <li><a class="ad" style="color:black !important" href="Department_Political_Science.php">Political Science</a></li>
+                    <li><a class="ad" style="color:black !important" href="Department_Public_Administration.php">Public Administration</a></li>
+                    <li><a class="ad" style="color:black !important" href="Department_Home_Economics.php">Home Economics</a></li>
+                  </ul>
+                </li>
+                <li class="menu-has-children"><a class="ad" style="color:black !important">Commerce</a>
+                  <ul style="float:right">
+                    <li><a class="ad" style="color:black !important" href="Commerce.php">Commerce</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-has-children"><a>IQAC</a>
+              <ul>
+                <li class="menu-has-children"><a style="color:black !important">About IQAC</a>
+                  <ul style="float:right">
+                    <li><a class="ad" style="color:black !important" href="AboutIQAC.php">About IQAC</a></li>
+                    <li><a class="ad" style="color:black !important" href="Vision.php">Vision</a></li>
+                    <li><a class="ad" style="color:black !important" href="Strategy.php">Strategy</a></li>
+                    <li><a class="ad" style="color:black !important" href="IQACComposition.php">IQAC Composition</a></li>
+                  </ul>
+                </li>
+                <li class="menu-has-children"><a class="ad" style="color:black !important">IQAC Activities</a>
+                  <ul style="float:right">
+                    <li><a class="ad" style="color:black !important" href="IQACActivities.php">IQAC Activities</a></li>
+                    <li><a class="ad" style="color:black !important" href="FuturePlans.php">Future Plans</a></li>
+                    <li><a class="ad" style="color:black !important" href="Minutes.php">Minutes of Meeting</a></li>
+                    <li><a class="ad" style="color:black !important" href="IQACGallery.php">Gallery</a></li>
+                  </ul>
+                </li>
+                <li class="menu-has-children"><a class="ad" style="color:black !important">AQAR</a>
+                  <ul style="float:right">
+                    <li><a class="ad" style="color:black !important" href="AQAR.php">AQAR</a></li>
+                  </ul>
+                </li>
+                <li class="menu-has-children"><a class="ad" style="color:black !important">SSR</a>
+                  <ul style="float:right">
+                    <li><a class="ad" style="color:black !important" href="ssr.php">SSR</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-has-children"><a href="Library.php">Library</a>
+              <ul>
+                <li><a class="ad" style="color:black !important" href="Library.php">Library</a></li>
+                <li><a class="ad" style="color:black !important" href="LibraryCommittee.php">Library Committee</a></li>
+                <li><a class="ad" style="color:black !important" href="NewsBooks.php">New Arrivals</a></li>
+                <li><a class="ad" style="color:black !important" href="Goals.php">Goals and Objectives</a></li>
+                <li><a class="ad" style="color:black !important" href="Services.php">Library Services</a></li>
+                <li><a class="ad" style="color:black !important" href="LibraryHolding.php">Library Holdings</a></li>
+              </ul>
+            </li>
+            <li class="menu-has-children"><a>Students Corner</a>
+              <ul>
+                <li><a class="ad" style="color:black !important" href="Admissions.php">Admission</a></li>
+                <li><a class="ad" style="color:black !important" href="StudentsCouncil.php">Student Council</a></li>
+                <li><a class="ad" style="color:black !important" href="StudentsMagazine.php">Student Magazine</a></li>
+                <li><a class="ad" style="color:black !important" href="Events.php">Events</a></li>
+                <li><a class="ad" style="color:black !important" href="Notices.php">Notices</a></li>
+                <li><a class="ad" style="color:black !important" href="Downloads.php">Downloads</a></li>
+                <li><a class="ad" style="color:black !important" href="Alumni.php">Alumni</a></li>
+                <li><a class="ad" style="color:black !important" href="Committee.php">Committees</a></li>
+                <li><a class="ad" style="color:black !important" href="PlacementCell.php">Placement Cell</a></li>
+              </ul>
+            </li>
+            <li class="menu-has-children"><a>IQAC</a>
+              <ul>
+                <li class="menu-has-children"><a style="color:black !important">About IQAC</a>
+                  <ul style="float:right">
+                    <li><a class="ad" style="color:black !important" href="AboutIQAC.php">About IQAC</a></li>
+                    <li><a class="ad" style="color:black !important" href="Vision.php">Vision</a></li>
+                    <li><a class="ad" style="color:black !important" href="Strategy.php">Strategy</a></li>
+                    <li><a class="ad" style="color:black !important" href="IQACComposition.php">IQAC Composition</a></li>
+                  </ul>
+                </li>
+                <li class="menu-has-children"><a class="ad" style="color:black !important">IQAC Activities</a>
+                  <ul style="float:right">
+                    <li><a class="ad" style="color:black !important" href="IQACActivities.php">IQAC Activities</a></li>
+                    <li><a class="ad" style="color:black !important" href="FuturePlans.php">Future Plans</a></li>
+                    <li><a class="ad" style="color:black !important" href="Minutes.php">Minutes of Meeting</a></li>
+                    <li><a class="ad" style="color:black !important" href="IQACGallery.php">Gallery</a></li>
+                  </ul>
+                </li>
+                <li class="menu-has-children"><a class="ad" style="color:black !important">AQAR</a>
+                  <ul style="float:right">
+                    <li><a class="ad" style="color:black !important" href="AQAR.php">AQAR</a></li>
+                  </ul>
+                </li>
+                <li class="menu-has-children"><a class="ad" style="color:black !important">SSR</a>
+                  <ul style="float:right">
+                    <li><a class="ad" style="color:black !important" href="ssr.php">SSR</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-has-children"><a>Gallery</a>
+              <ul>
+                <li><a class="ad" style="color:black !important" href="ImageGallery.php">Image Gallery</a></li>
+                <li><a class="ad" style="color:black !important" href="VideoGallery.php">Video Gallery</a></li>
+              </ul>
+            </li>
+            <li><a href="contactus.php">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+		  </header>

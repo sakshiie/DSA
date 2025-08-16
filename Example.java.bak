@@ -1,0 +1,21 @@
+interface demo 
+{
+	String str="hello";
+}
+
+class Example implements Demo
+{
+     public static void main(String[] args) 
+	{
+
+		System.out.println(str);
+		Example2.m1();
+}
+	class Example2
+	{
+		public static void m1(){
+        System.out.println(Demo.str);
+	}
+	
+}
+}

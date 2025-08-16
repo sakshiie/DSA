@@ -1,0 +1,24 @@
+class  Mango
+{
+	String type;
+    double price;
+	String origin;
+
+public void displayOrigin(){
+     
+	System.out.println(origin);
+	
+}
+
+public Mango displayPrice(){
+     
+	System.out.println(price);
+	return this;
+}
+
+public Mango displayType(){
+     
+	System.out.println(type);
+	return this;
+}
+}

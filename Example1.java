@@ -1,0 +1,21 @@
+interface Demo1
+{
+	void m1();
+}
+class DemoExample implements Demo1
+{
+	public void m1(){
+		System.out.println("m1()");
+}
+}
+public class Example1
+{
+	public static void main(String[] args) 
+	{
+		DemoExample obj=new DemoExample();
+		obj.m1();
+        
+	}
+}
+	
+

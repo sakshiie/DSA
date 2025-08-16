@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <?php include('include/links.php') ?>
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/2.1.2/css/dataTables.bootstrap5.css" />
+  
+</head>
+
+<style>
+.section-title{
+    padding-bottom:0px !important;
+}    
+
+#main {
+    margin-top: 15% !important;
+}    
+
+</style>
+<body>
+
+ <?php include('include/header.php') ?>
+ <!--Paste your section below this comment-->
+ 
+  <main id="main">
+ <div class="container">
+        
+        <div class="section-title">    
+             <h2>महाफार्मस्</h2>
+         </div>
+     
+      <p class="styled-paragraph">महाराष्ट्र सहकार विकास महामंडळाशी संलग्न्न सहकारी संस्था, शेतकरी उत्पादक कंपनी व महिला बचतगट इत्यादी संस्थांमार्फत उत्पादीत करण्यात येणा-या विविध उत्पादनांची विक्री करण्यासाठी त्यांना हक्काचे व्यासपीठ निर्माण व्हावे, यासाठी महामंडळाने महाफार्म या नावाने स्वत:चा ब्रॅन्ड निर्माण केला आहे. या अंतर्गत वरील संस्थांचे विविध गुणवत्तापुर्ण उत्पादनांना महाराष्ट्र सहकार विकास महामंडळ वेगवेगळया यंत्रणेमार्फत विक्रीस उपलब्ध करून देत आहे. या ब्रॅन्ड अंतर्गत दिनांक 14/11/2018 व 15/11/2018 चंढीगड येथे आयोजीत सहकार सप्ताह मध्ये महाफार्मस् मधील सर्व उत्पादनांचे उद्घाटन मा.ना.श्री. सुभाषराव देशमुख, मा.मंत्री, सहकार, पणन व वस्त्रोद्योगविभाग ,महाराष्ट्र राज्य आणि मा.ना.श्री. सुखजिंदर सिंग रंधवा, मा.मंत्री, सहकार व कारागृह, पंजाब राज्य यांच्या उपस्थितीत करण्यात आले. यामध्ये हळद पावडर, मिरची पावडर, गुळ, गुळ पावडर, काजु, काजु तुकडा व विविध मसाले इ. उत्पादने पंजाब राज्यातील विविध दुकानांमध्ये विक्रीसाठी ठेवण्यात आले आहेत. सद्यस्थितीत महाराष्ट्र सहकार विकास महामंडळ यांनी पुणे आणि मुंबई येथील विविध सहकारी ग्राहक मध्यवर्ती संस्था यांच्या समवेत सामंजस्य करार केलेले आहे. ज्यामध्ये ग्राहक पेठ, भारती बाजार, सहयाद्री बाजार, सहकारी भांडार, अपना बजार, कळवा सहकार बजार, इत्यादींचा समावेश आहे. भविष्यात महाफार्मस् अंतर्गत इतर काही उत्पादनांचा समावेश करण्यात येणार आहे. त्यामध्ये मिरची पावडर,मनुका, ज्वारी, तांदूळ, तूरडाळ, आवळा कॅन्डी, मध, शेंगदाण चटणी, इत्यादी उत्पादने बाजारपेठेत विक्रीकरीता उपलब्ध करण्यात येणार आहे.</p>
+
+     <div class="table-responsive">
+     
+     <table id="example" class="table table-striped table-hover table-bordered dataTable no-footer" style="width:100%;" aria-describedby="example_info">
+         <thead class="">
+             <tr>
+                 <th class="text-center" style="background:#3CB371;color:white">SR. NO.</th>
+                 <th class="text-center" style="background:#3CB371;color:white">PRODUCT NAME</th>
+                 <th class="text-center" style="background:#3CB371;color:white">SKU IN GM</th>
+             </tr>
+         </thead>
+         
+         <tbody>
+              <tr>
+                  <td>1</td>
+                  <td>MAHAFARMS MUTTON MASALA</td>
+                  <td>100</td>
+             </tr>
+            <tr>
+                <td>2</td>
+                <td>MAHAFARMS MALWANI MASALA</td>
+                <td>100</td>
+            </tr>
+             <tr>
+                 <td>3</td>
+                 <td>MAHAFARMS HIRWA MASALA</td>
+                 <td>100</td>
+             </tr>
+            <tr>
+                <td>4</td>
+                <td>MAHAFARMS SAMBAR MASALA</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>MAHAFARMS UDID PAPAD</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>MAHAFARMS SWEET AWALA CANDY</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>MAHAFARMS TEA MASALA</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>MAHAFARMS YESAR/BANGA MASALA</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>MAHAFARMS WAIGAON TURMERIC POWDER</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>MAHAFARMS WAIGAON TURMERIC POWDER</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>MAHAFARMS CASHEWS WHOLE</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>MAHAFARMS CASHEWS WHOLE</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>MAHAFARMS CASHEWS SPLITS</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>MAHAFARMS CASHEWS SPLITS</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>15</td><td>MAHAFARMS ONION GARLIC MASALA</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>MAHAFARMS KOLHAPURI MASALA</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>MAHAFARMS KALA MASALA</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>MAHAFARMS BLACK RAISINS</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>MAHAFARMS BLACK RAISINS</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>MAHAFARMS JAGGERY</td>
+                <td>900</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>MAHAFARMS BHIVAPUR CHILLI POWDER</td>
+                <td>100</td>
+            </tr>
+        </tbody>
+
+     </table> 
+     
+     </div>
+     
+    </div>
+ 
+
+  </main><!-- End #main -->
+    
+ <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.1.2/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/2.1.2/js/dataTables.bootstrap5.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#example').DataTable();
+        });
+        
+    </script>
+       
+<?php include('include/footer.php') ?>
+    
+ 
+<?php include('include/js-links.php') ?>
+ 
+</body>
+
+</html>

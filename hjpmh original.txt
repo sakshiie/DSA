@@ -1,0 +1,145 @@
+<header >
+	  		<div class="header-top cp-0">
+	  			<div class="container-fluid cp">
+			  		<div class="row example" style="align-items: flex-end;margin-top: -8px;">
+			  		   
+			  			<div class="col-3 col-md-3 no-padding">
+			  			<img class="img-fluid img" src="images/Logo1.png" alt="@blankPage.php">
+			  			</div>
+			  				<div class="col-6  col-md-6 " style="text-align:center;">
+                                <b><h8  class="" style=" color:darkblue;padding-top:1%;font-size: 20px;padding-bottom:4px" id="">Marathwada Gramin Shikshan Sanstha's</h8></b>
+<!--			  				    <p style="margin-bottom:0px;font-weight:500;color: darkblue;margin:2px"></p>-->
+			  		<h4  class="" style=" color:darkblue;font-size: 27px;width:220%;margin-left:-66%; margin-right:-66%; " id="h2">HUTATMA JAYWANTRAO PATIL MAHAVIDYALAYA,HIMAYATNAGAR</h4>
+                                <p style="margin-bottom:0px;font-weight:500;color: darkblue;margin:2px">TQ.HIMAYATNAGAR-431802.DIST.NANDED.</p>
+                            <p style="margin-bottom:0px;font-weight:500;color: darkblue;margin:2px">(Affiliated to Swami Ramanand Teerth Marathwada University)</p>
+                            <p style="margin-bottom:0px;font-weight:500;color: darkblue;margin:2px">Recognized by UGC U/s 2(f) and 12(B),NAAC accredited with 'B' Grade(CGPA 2.48)</p>
+                             <p style="margin-bottom:0px;font-weight:500;color: darkblue;margin:2px">E.Mail: hjp.ned@gmail.com &nbsp;<a href="index.php" style="color :darkblue">Website : hjpmh.co.in</a>&nbsp;Fax No.02468-244106</p>    
+<!--                            <p style="margin-bottom:0px;font-weight:500;color: darkblue;margin:2px">E.Mail:hjp.ned@gmail.com  WebSite:www.hjpmh.in  Fax No.:02468-244106</p>    -->
+			  			</div>
+			  		     	<div class="col-3 col-md-3 no-padding" id="mail">
+			  		<p style="padding:0%;float:right"><b style="font-weight:500"><br>
+	       <label> Email :</label><a href="tel:02469223339" style="color:darkblue;text-align:center;">hjp.ned@gmail.com</a><br>
+		     <label>Tel(O):</label><a href="tel:02469223339" style="color:darkblue">244406</a>  </b></p>
+    			  			</div>  
+    			  		</div>	
+    			  	
+			  		<div class="d-sm-none d-md-none d-lg-none" id="img1">
+   
+    <div class="container-fluid d-flex align-items-center" style="padding-left:0px !important ;"> 
+	<a href="index.php" class="@blankPage.php">	<img class="img-fluid img" src="images/Logo.png" alt="@blankPage.php"></a> </div>
+  </div>
+	  			</div>
+			</div>
+			
+			
+		    <div class="container-fluid main-menu" style="background-color:darkblue;">
+		    	<div class="row align-items-center justify-content-between d-flex p-1">
+			    
+			      <nav id="nav-menu-container" >
+			        <ul class="nav-menu">
+			          <li><a href="index.php">Home</a></li>
+			            <li><a href="aboutus.php">About Us</a></li>
+			            
+			           <li><a href="Principals-Desk.php">Principal's Desk</a></li>
+			            <li class="menu-has-children"><a>Departments</a>
+			            <ul>
+			                <!--class="ad" style="color:black !important" href="science.php"-->
+			              <li class="menu-has-children"  ><a style="color:black !important">Science</a>
+			               <ul style="float:right">
+			              <li><a class="ad" style="color:black !important" href="botany.php">Botany</a></li>
+			              <li><a class="ad" style="color:black !important" href="zoology.php">Zoology</a></li>
+			               <li><a class="ad" style="color:black !important" href="chemistry.php">Chemistry</a></li> 
+			               <li><a class="ad" style="color:black !important" href="mathematics.php">Mathematics</a></li>
+			               <li><a class="ad" style="color:black !important" href="environmental-science.php">Enviormental Science</a></li>
+			                <!--<li><a style="color:black !important" href="Libary.php">Library</a></li>-->
+			            </ul>
+			              </li>
+			              <li  class="menu-has-children"><a class="ad" style="color:black !important">Arts</a>
+                             <ul style="float:right">
+			              <li><a class="ad" style="color:black !important" href="department_marathi.php">Marathi</a></li>
+			              <li><a class="ad" style="color:black !important" href="department_hindi.php">Hindi</a></li>
+			               <li><a class="ad" style="color:black !important" href="department_english.php">English</a></li> 
+			               <li><a class="ad" style="color:black !important" href="department_sociology.php">Sociology</a></li>
+			               <li><a class="ad" style="color:black !important" href="department_history.php">History</a></li>
+                          <li><a class="ad" style="color:black !important" href="department_political_science.php">Political Science</a></li> 
+                          <li><a class="ad" style="color:black !important" href="department_economics.php">Economics</a></li>         
+			                <!--<li><a style="color:black !important" href="Libary.php">Library</a></li>-->
+			            </ul>
+                            </li>
+			              <li><a class="ad" style="color:black !important" href="commerce.php">Commerce</a></li>			                                     			              
+			            </ul>
+			          </li>				         			         
+			            <li class="menu-has-children"><a>Facilities</a>
+			            <ul>
+			              <li><a class="ad" style="color:black !important" href="Laboratory.php">Laboratory</a></li>
+			              <li><a class="ad" style="color:black !important" href="@blankPage.php"></a></li>
+			               <li><a class="ad" style="color:black !important" href="Sports.php">Sports</a></li> 			               
+			                <!--<li><a style="color:black !important" href="Libary.php">Library</a></li>-->			                
+			            </ul>
+			          </li>	
+                        
+                        <li class="menu-has-children"><a>Library</a>
+			            <ul>
+			                <li><a class="ad" style="color:black !important" target="_blank" 
+                                 href="files/Welcome.pdf">Welcome Note</a></li>
+                            
+                            <li><a class="ad" style="color:black !important" target="_blank" 
+                                 href="library.php">About library</a></li>
+                            
+			              <li><a class="ad" style="color:black !important" target="_blank" 
+                                 href="../E-Resources.pdf">E-Resources</a></li>
+                            
+                           <li><a class="ad" style="color:black !important" target="_blank" 
+                                  href="files/LLibrary_Collection_1[1].pdf">Library Collections</a></li>   
+			          
+                              <li><a class="ad" style="color:black !important" target="_blank" 
+                                  href="files/Library Committee.pdf">Library Advisory Committee</a></li>
+                            
+                            <li><a class="ad" style="color:black !important" target="_blank" 
+                                  href="Library Feedback Form.pdf">Library Feedback Form</a></li>
+                            
+                            <li><a class="ad" style="color:black !important" target="_blank" 
+                                  href="files/E-News Paper.pdf">E-News Paper</a></li>
+                            
+                            <li><a class="ad" style="color:black !important" target="_blank" 
+                                   href="Library Rules.pdf">Library Rules</a></li>
+                            
+                            <li><a class="ad" style="color:black !important" target="_blank" 
+                                  href="files/Library Form.pdf">Library Form</a></li>
+			          
+			                <li><a class="ad" style="color:black !important" target="_blank" 
+                                  href="Library Events Photos.pdf">Library Event Photos</a></li>  
+                            
+			            </ul>
+			          </li>				          			        
+			            <li class="menu-has-children"><a>NAAC</a>
+			            <ul>
+			              <li><a class="ad" style="color:black !important" href="IQAC-maa.php">IQAC</a></li> 
+			              <li><a class="ad" style="color:black !important" href="IQAC-Commettie.php">IQAC Committee</a></li>
+			              <li><a class="ad" style="color:black !important" href="AQAR.php">AQAR Reports</a></li>
+			              <li><a class="ad" style="color:black !important" target="_blank" href="../committee_pdf/HJP_SSR_2019(1).pdf">SSR Report</a></li>
+			              <li><a class="ad" style="color:black !important"  href="@blankPage.php">Teaching Certificate</a></li>
+			               
+			                <!--<li><a style="color:black !important" href="Libary.php">Library</a></li>-->
+			            </ul>
+			          </li>	
+			          
+			                   <li><a href=" @blankPage.php">Gallery</a></li>
+			                   
+				        
+				                <li  class="menu-has-children"><a>More</a>
+				              <ul>
+				            <li><a class="ad" style="color:black !important" href="padhavi .php">पदवी प्रमाणपत्र वितरण समारंभ</a></li>
+	                        <li><a class="ad" style="color:black !important" href="blood_donation.php">भव्य मोफत रोग निदानशिबीर</a></li>
+	                        <li><a class="ad" style="color:black !important" href="student_get_together.php">माजी विध्यार्थी मेळावा</a> </li>
+                             <li><a class="ad" style="color:black !important" href="suraykantatai_patil.php">लोकनेत्या मा . सूर्यकांता ताई पाटील</a>  </li>
+		                      </li>
+					        </ul>
+					          <li><a href="contact_us.php">Contact us</a></li>
+					           <li><a href="feedback.php">Feedback</a></li>
+                       <li><a href="mandatory.php">Mandatory Disclosure</a></li>
+		</ul>
+			      </nav><!-- #nav-menu-container -->		    		
+		    	</div>
+		    </div>
+		  </header>

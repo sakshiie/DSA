@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <?php include('include/links.php') ?>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.2/css/dataTables.bootstrap5.css" />
+    
+    <style>
+        .demo {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .panel {
+            padding: 10px;
+            border-radius: 0;
+        }
+
+        .panel .panel-heading {
+            padding: 20px 15px 0;
+        }
+
+        .panel .panel-heading .title {
+            color: #222;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+            margin: 0;
+        }
+
+        .panel .panel-heading .btn {
+            background-color: #6D7AE0;
+            padding: 6px 12px;
+            border-radius: 0;
+            border: none;
+            transition: all 0.3s ease 0s;
+        }
+
+        .panel .panel-heading .btn:hover {
+            text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.08);
+        }
+
+        .panel .panel-body .table {
+            margin: 0;
+            border: 1px solid #e7e7e7;
+        }
+
+        .panel .panel-body .table tr td {
+            border-color: #e7e7e7;
+        }
+
+        .panel .panel-body .table thead tr.active th {
+            color: #fff;
+            background-color: #6D7AE0;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 12px;
+            border: 1px solid #6D7AE0;
+        }
+
+        .panel .panel-body .table tbody tr:hover {
+            background-color: rgba(109, 122, 224, 0.1);
+        }
+
+        .panel .panel-body .table tbody tr td {
+            color: #555;
+            padding: 8px 12px;
+            vertical-align: middle;
+        }
+
+        .panel .panel-body .table tbody .btn {
+            border-radius: 0;
+            transition: all 0.3s ease;
+        }
+
+        .panel .panel-body .table tbody .btn:hover {
+            box-shadow: 0 0 0 2px #333;
+        }
+
+        .panel .panel-footer {
+            background-color: #fff;
+            padding: 0 15px 5px;
+            border: none;
+        }
+
+        .panel .panel-footer .col {
+            line-height: 35px;
+        }
+
+        .pagination {
+            margin: 0;
+        }
+
+        .pagination li a {
+            font-size: 15px;
+            font-weight: 600;
+            color: #6D7AE0;
+            text-align: center;
+            height: 35px;
+            width: 35px;
+            line-height: 33px;
+            padding: 0;
+            margin: 0 2px;
+            display: block;
+            transition: all 0.3s ease 0s;
+        }
+
+        .pagination li:first-child a,
+        .pagination li:last-child a {
+            border-radius: 0;
+        }
+
+        .pagination li a:hover,
+        .pagination li a:focus,
+        .pagination li.active a {
+            color: #fff;
+            background-color: #6D7AE0;
+        }
+    </style>
+</head>
+
+<body>
+    <?php include('include/header.php') ?>
+
+    <main id="main">
+        <section id="team" class="team section-bg" style="padding: 40px 0 !important;">
+            <div class="container">
+                <div class="section-title" style="padding-bottom:20px !important;">
+                    <h2>निविदा/जाहिरात</h2>
+                </div>
+                <div class="container">
+                    <table id="example" class="table table-striped" style="width:100%">
+                        <thead  style="height:3rem;">
+                            <tr>
+                            <th style="background-color:green"> </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>कॉपशॉप विक्री व प्रदर्शनि केंद्र चालवण्यासाठी अर्ज </th>
+
+                            </tr>
+                            <tr>
+                                <th>सेवानिवृत्त अधिकारी कर्मचारी पद भरती अर्ज </th>
+                                
+                            </tr>
+                            <tr>
+                                <th>सेवानिवृत्त अधिकारी कर्मचारी पद भरती </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section><!-- End Team Section -->
+    </main><!-- End #main -->
+
+    <?php include('include/footer.php') ?>
+
+    <?php include('include/js-links.php') ?>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.1.2/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/2.1.2/js/dataTables.bootstrap5.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#example').DataTable();
+        });
+        
+    </script>
+    
+</body>
+
+</html>

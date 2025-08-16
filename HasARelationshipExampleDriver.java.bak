@@ -1,0 +1,130 @@
+class Mobile 
+{
+	String brand;
+	String model;
+	double price;
+	String color;
+	Processor processor;
+	Battery battery=new Battery("samsung","Lithium ion",4000);
+	SimCard [] simcards= new SimCard[2];
+	Charger charger;
+
+	int index;
+	Mobile (String brand, String model,double price){
+		this.brand=brand;
+		this.model=model;
+		this.price=price;
+	}
+	public void displayMobile(){
+		System.out.println(brand+ " "+model+ " "+price);
+	}
+	public Processor getProcessor(){
+		return processor;
+	}
+	public Battery getBattery(){
+		return battery;
+	}
+	public SimCard[] getSimcards(){
+		return simcards;
+	}
+	public void getHeadphone(){
+		return headphone;
+	}
+	public void addSimCard(String type,int number){
+		SimCard obj=new SimCard(type,number);
+		simcards[index]=obj;
+		index++;
+	}
+	public void addHeadPhone(String brand , String type){
+		headPhone=new HeadPhone(brand,type);
+	}
+	
+	class Processor
+	{
+		String type;
+		int ram;
+		int rom;
+		OperatingSystem os;
+		public Processor (String type,int ram,int rom){
+			this.type=type;
+			this.ram=ram;
+			this.rom=rom;
+			this.os=new OperatingSystem("Android","12.3.4");
+
+	}
+	public void displayProcessor(){
+		System.out.println(type+" " +ram+ " "+rom);
+	}
+	public OperatingSystem getOs(){
+		return os;
+	}
+
+	class OpeartingSystem{
+		String name;
+		String version;
+
+	
+	}
+	public void OperatingSystem(String name, String version){
+		this.name=name;
+		this.version=version;
+	}
+	public void displayOperatingSystem(){
+            System.out.println(name+" "+version);
+	}
+
+	class Battery
+	{
+		String brand;
+		String type;
+
+		Battery(String brand,String type){
+			this.brand=brand;
+			this.type=type;
+		}
+		public void displayBattery(){
+			System.out.println(brand+" " +type);
+		}
+
+	}
+	class SimCard
+	{
+		String type;
+		long number;
+
+		public SimCard(String type,long number){
+			this.type=type;
+			this.number=number;
+		}
+		public void displaySimCard(){
+			System.out.println(type+" " +number);
+			 
+	}
+	class HeadPhone
+	{
+		String brand;
+		String type;
+
+		HeadPhone(String brand,String type){
+			this.brand=brand;
+			this.type=type;
+		}
+		public void displyHeadPhone(){
+			System.out.println(brand+" "+type);
+
+	}
+
+}
+
+public class HasARelationshipExampleDriver
+{
+	public static void main(String []args){
+		Processor processor=new Processor("Dual core" ,2.5);
+		Mobile mobile=new Mobile("Samsung","s23");
+		mobile.displayMobile();
+		mobile.getProcessor.displayProcessor();
+}
+}
+	}
+	}
+}
