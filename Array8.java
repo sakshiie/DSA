@@ -1,0 +1,18 @@
+class Array8 
+{
+	//sum and product of numbers
+	public static void main(String[] args) 
+	{
+		int arr[]={1,2,4,6,3,5};
+        int sum=0;
+		int product=1;
+
+		for(int ele:arr){
+			sum+=ele;
+			product*=ele;
+		}
+			System.out.println("Sum :"+sum);
+			System.out.println("Product :"+product);
+
+	}
+}
